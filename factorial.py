@@ -31,6 +31,7 @@ def time_complexity_visualizer(algorithm, n_min, n_max, n_step):
     plt.ioff()  # Disable interactive mode
     plt.show()  # Keep plot open
 
+
 def linear_search(n):
     for i in range(n):
         if i == n-1:
@@ -68,8 +69,8 @@ def nested_loops(n):
 
 
     
-
-time_complexity_visualizer(bubble_sort, 10, 10000, 10)
+if __name__ == "__main__":
+    time_complexity_visualizer(bubble_sort, 10, 10000, 10)
 # time_complexity_visualizer(linear_search, 10, 10000, 10)
 # time_complexity_visualizer(binary_search, 10, 5000, 10)
 # time_complexity_visualizer(nested_loops, 10, 3000, 10)

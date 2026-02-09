@@ -6,5 +6,5 @@ Takes query params:
  - The step value (n_steps)
 
 Responds with:
- - Formatted json  (all the above context including how long it took to run the analisis (Total time))
+ - Formatted json  (all the above context including how long it took to run the analysis (Total time))
  - And a base 64 stream of the image  of the graph
